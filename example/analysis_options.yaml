@@ -1,0 +1,4 @@
+include: package:extended_dart_lints/lints.yaml
+
+linter:
+  rules:
