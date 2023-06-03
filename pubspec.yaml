@@ -11,5 +11,5 @@ dependencies:
 
 cider:
   link_template:
-    tag: https://github.com/bjoernahrens/extended_dart_lints/releases/tag/%tag% # initial release link template
+    tag: https://github.com/bjoernahrens/extended_dart_lints/releases/tag/%tag%
     diff: https://github.com/bjoernahrens/extended_dart_lints/compare/%from%...%to%

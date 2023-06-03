@@ -21,6 +21,16 @@ dev_dependencies:
   extended_dart_lints: ^0.0.1
 ```
 
+> Note: While this package is unpublished, use:
+
+```yaml
+dev_dependencies:
+  extended_dart_lints:
+    git:
+      url: git@github.com:bjoernahrens/extended_dart_lints.git
+      ref: main
+```
+
 ## Usage
 
 Add the following line to your `analysis_options.yaml`:
