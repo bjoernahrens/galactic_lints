@@ -2,80 +2,228 @@ include: package:flutter_lints/flutter.yaml
 
 linter:
   rules:
-    # Group: errors
+  # Group: errors
+
+    # https://dart-lang.github.io/linter/lints/avoid_dynamic_calls.html
     avoid_dynamic_calls: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_slow_async_io.html
     avoid_slow_async_io: true
+
+    # https://dart-lang.github.io/linter/lints/cancel_subscriptions.html
     cancel_subscriptions: true
+
+    # https://dart-lang.github.io/linter/lints/close_sinks.html
     close_sinks: true
+
+    # https://dart-lang.github.io/linter/lints/collection_methods_unrelated_type.html
     collection_methods_unrelated_type: true
+
+    # https://dart-lang.github.io/linter/lints/comment_references.html
     comment_references: true
+
+    # https://dart-lang.github.io/linter/lints/diagnostic_describe_all_properties.html
     diagnostic_describe_all_properties: false # maybe
+
+    # https://dart-lang.github.io/linter/lints/discarded_futures.html
     discarded_futures: true
+    
+    # https://dart-lang.github.io/linter/lints/no_adjacent_strings_in_list.html
     no_adjacent_strings_in_list: true
+    
+    # https://dart-lang.github.io/linter/lints/prefer_relative_imports.html
     prefer_relative_imports: true
+    
+    # https://dart-lang.github.io/linter/lints/throw_in_finally.html
     throw_in_finally: true
+    
+    # https://dart-lang.github.io/linter/lints/unnecessary_statements.html
     unnecessary_statements: true
 
-    # Group: style
+  # Group: style
+
+    # https://dart-lang.github.io/linter/lints/always_declare_return_types.html
     always_declare_return_types: true
+
+    # https://dart-lang.github.io/linter/lints/always_put_required_named_parameters_first.html
     always_put_required_named_parameters_first: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_catches_without_on_clauses.html
     avoid_catches_without_on_clauses: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_catching_errors.html
     avoid_catching_errors: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html
     avoid_classes_with_only_static_members: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_double_and_int_checks.html
     avoid_double_and_int_checks: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_escaping_inner_quotes.html
     avoid_escaping_inner_quotes: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_final_parameters.html
     avoid_final_parameters: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_implementing_value_types.html
     avoid_implementing_value_types: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_js_rounded_ints.html
     avoid_js_rounded_ints: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_multiple_declarations_per_line.html
     avoid_multiple_declarations_per_line: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_positional_boolean_parameters.html
     avoid_positional_boolean_parameters: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_private_typedef_functions.html
     avoid_private_typedef_functions: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_redundant_argument_values.html
     avoid_redundant_argument_values: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_returning_this.html
     avoid_returning_this: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_setters_without_getters.html
     avoid_setters_without_getters: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_types_on_closure_parameters.html
     avoid_types_on_closure_parameters: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_unused_constructor_parameters.html
     avoid_unused_constructor_parameters: true
+
+    # https://dart-lang.github.io/linter/lints/avoid_void_async.html
     avoid_void_async: true
+
+    # https://dart-lang.github.io/linter/lints/cascade_invocations.html
     cascade_invocations: true
+
+    # https://dart-lang.github.io/linter/lints/dangling_library_doc_comments.html
     dangling_library_doc_comments: true
+
+    # https://dart-lang.github.io/linter/lints/deprecated_consistency.html
     deprecated_consistency: true
+
+    # https://dart-lang.github.io/linter/lints/join_return_with_assignment.html
     join_return_with_assignment: true
+
+    # https://dart-lang.github.io/linter/lints/leading_newlines_in_multiline_strings.html
     leading_newlines_in_multiline_strings: true
+
+    # https://dart-lang.github.io/linter/lints/lines_longer_than_80_chars.html
     lines_longer_than_80_chars: true
+
+    # https://dart-lang.github.io/linter/lints/missing_whitespace_between_adjacent_strings.html
     missing_whitespace_between_adjacent_strings: true
+
+    # https://dart-lang.github.io/linter/lints/noop_primitive_operations.html
     noop_primitive_operations: true
+
+    # https://dart-lang.github.io/linter/lints/one_member_abstracts.html
     one_member_abstracts: true
+
+    # https://dart-lang.github.io/linter/lints/only_throw_errors.html
     only_throw_errors: true
+
+    # https://dart-lang.github.io/linter/lints/parameter_assignments.html
     parameter_assignments: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_asserts_in_initializer_lists.html
     prefer_asserts_in_initializer_lists: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_asserts_with_message.html
     prefer_asserts_with_message: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_constructors_over_static_methods.html
     prefer_constructors_over_static_methods: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_final_in_for_each.html
     prefer_final_in_for_each: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_final_locals.html
     prefer_final_locals: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_if_elements_to_conditional_expressions.html
     prefer_if_elements_to_conditional_expressions: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_int_literals.html
     prefer_int_literals: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_null_aware_method_calls.html
     prefer_null_aware_method_calls: true
+
+    # https://dart-lang.github.io/linter/lints/prefer_single_quotes.html
     prefer_single_quotes: true
+
+    # https://dart-lang.github.io/linter/lints/sort_pub_dependencies.html
     sort_pub_dependencies: true
+
+    # https://dart-lang.github.io/linter/lints/sort_unnamed_constructors_first.html
     sort_unnamed_constructors_first: true
+
+    # https://dart-lang.github.io/linter/lints/unawaited_futures.html
     unawaited_futures: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_await_in_return.html
     unnecessary_await_in_return: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_lambdas.html
     unnecessary_lambdas: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_library_directive.html
     unnecessary_library_directive: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html
     unnecessary_null_aware_operator_on_extension_on_nullable: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_null_checks.html
     unnecessary_null_checks: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_parenthesis.html
     unnecessary_parenthesis: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_raw_strings.html
     unnecessary_raw_strings: true
+
+    # https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html
     unnecessary_to_list_in_spreads: true
+
+    # https://dart-lang.github.io/linter/lints/use_colored_box.html
     use_colored_box: true
+
+    # https://dart-lang.github.io/linter/lints/use_decorated_box.html
     use_decorated_box: true
+
+    # https://dart-lang.github.io/linter/lints/use_enums.html
     use_enums: true
+
+    # https://dart-lang.github.io/linter/lints/use_if_null_to_convert_nulls_to_bools.html
     use_if_null_to_convert_nulls_to_bools: true
+
+    # https://dart-lang.github.io/linter/lints/use_is_even_rather_than_modulo.html
     use_is_even_rather_than_modulo: true
+
+    # https://dart-lang.github.io/linter/lints/use_late_for_private_fields_and_variables.html
     use_late_for_private_fields_and_variables: true
+
+    # https://dart-lang.github.io/linter/lints/use_named_constants.html
     use_named_constants: true
+
+    # https://dart-lang.github.io/linter/lints/use_raw_strings.html
     use_raw_strings: true
+
+    # https://dart-lang.github.io/linter/lints/use_setters_to_change_properties.html
     use_setters_to_change_properties: true
+
+    # https://dart-lang.github.io/linter/lints/use_string_buffers.html
     use_string_buffers: true
+
+    # https://dart-lang.github.io/linter/lints/use_super_parameters.html
     use_super_parameters: true
+
+    # https://dart-lang.github.io/linter/lints/use_test_throws_matchers.html
     use_test_throws_matchers: true
