@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  release:
+    cmds:
+      - cider release
+      - git tag -a "${cider version}" -m "${cider version}"

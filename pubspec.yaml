@@ -1,6 +1,6 @@
 name: extended_dart_lints
 description: Lints and rules that go beyond Flutter's own recommendations
-version: 1.0.0
+version: 0.0.1
 repository: https://github.com/bjoernahrens/extended_dart_lints
 
 environment:
@@ -8,3 +8,8 @@ environment:
 
 dependencies:
   flutter_lints: ^2.0.1
+
+cider:
+  link_template:
+    tag: https://github.com/bjoernahrens/extended_dart_lints/releases/tag/%tag% # initial release link template
+    diff: https://github.com/bjoernahrens/extended_dart_lints/compare/%from%...%to%
