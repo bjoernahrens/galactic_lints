@@ -1,4 +1,1 @@
 include: package:galactic_lints/lints.yaml
-
-linter:
-  rules:

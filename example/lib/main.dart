@@ -1,7 +1,18 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 
+typedef FutureV = Future<void>;
+
+void foo(List<String> lines) {}
+
+void bar(String jsonText) {
+  foo(jsonDecode(jsonText) as List<String>);
+}
+
 void main() async {
-  Future.delayed(Duration.zero);
+  await FutureV.delayed(Duration.zero);
+
   runApp(const MyApp());
 }
 
