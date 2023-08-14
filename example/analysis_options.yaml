@@ -1,4 +1,4 @@
-include: package:extended_dart_lints/lints.yaml
+include: package:galactic_lints/lints.yaml
 
 linter:
   rules:

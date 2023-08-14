@@ -1,15 +1,15 @@
-name: extended_dart_lints
-description: Lints and rules that go beyond Flutter's own recommendations
+name: galactic_lints
+description: A very opinionated Collection of Linter Rules for Flutter and Dart that go beyond.
 version: 0.0.1
-repository: https://github.com/bjoernahrens/extended_dart_lints
+repository: https://github.com/bjoernahrens/galactic_lints
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
   flutter_lints: ^2.0.1
 
 cider:
   link_template:
-    tag: https://github.com/bjoernahrens/extended_dart_lints/releases/tag/%tag%
-    diff: https://github.com/bjoernahrens/extended_dart_lints/compare/%from%...%to%
+    tag: https://github.com/bjoernahrens/galactic_lints/releases/tag/%tag%
+    diff: https://github.com/bjoernahrens/galactic_lints/compare/%from%...%to%

@@ -1,1 +1,1 @@
-# Example how to use `extended_dart_lints`
+# Example how to use `galactic_lints`

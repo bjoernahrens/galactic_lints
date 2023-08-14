@@ -5,29 +5,29 @@
 Add this package as a `devDependency`.
 
 ```sh
-flutter pub add --dev extended_dart_lints
+flutter pub add --dev galactic_lints
 ```
 
 or
 
 ```sh
-dart pub add --dev extended_dart_lints
+dart pub add --dev galactic_lints
 ```
 
 Alternatively, you can directly add it to the `devDependencies` section in your `pubspec.yaml`:
 
 ```yaml
 dev_dependencies:
-  extended_dart_lints: ^0.0.1
+  galactic_lints: ^0.0.1
 ```
 
 > Note: While this package is unpublished, use:
 
 ```yaml
 dev_dependencies:
-  extended_dart_lints:
+  galactic_lints:
     git:
-      url: git@github.com:bjoernahrens/extended_dart_lints.git
+      url: git@github.com:bjoernahrens/galactic_lints.git
       ref: main
 ```
 
@@ -36,7 +36,7 @@ dev_dependencies:
 Add the following line to your `analysis_options.yaml`:
 
 ```yaml
-include: package:extended_dart_lints/lints.yaml
+include: package:galactic_lints/lints.yaml
 ```
 
 Following that, you can still easily enable or disable rules as you please.
