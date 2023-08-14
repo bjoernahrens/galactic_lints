@@ -15,6 +15,5 @@ cider:
     diff: https://github.com/bjoernahrens/galactic_lints/compare/%from%...%to%
 
 topics:
-  - linting
-  - rules
-  - analyze
+  - lints
+  - analysis
