@@ -1,5 +1,12 @@
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  language:
+    # https://dart.dev/tools/analysis#enabling-additional-type-checks
+    strict-casts: true
+    # strict-inference: false
+    strict-raw-types: true
+
 linter:
   rules:
     # Group: errors
