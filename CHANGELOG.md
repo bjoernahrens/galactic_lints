@@ -1,4 +1,4 @@
-## [Unreleased]
+## [0.0.2] - 2023-08-15
 
 ### Added
 
@@ -15,5 +15,5 @@
 
 - Add all rules
 
-[unreleased]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.1...HEAD
+[0.0.2]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/bjoernahrens/galactic_lints/releases/tag/0.0.1
