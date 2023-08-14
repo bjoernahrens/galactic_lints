@@ -13,3 +13,8 @@ cider:
   link_template:
     tag: https://github.com/bjoernahrens/galactic_lints/releases/tag/%tag%
     diff: https://github.com/bjoernahrens/galactic_lints/compare/%from%...%to%
+
+topics:
+  - linting
+  - rules
+  - analyze
