@@ -7,3 +7,6 @@ tasks:
       - git add CHANGELOG.md
       - 'git commit -m "chore: update CHANGELOG for v$(cider version)"'
       - git tag -a "$(cider version)" -m "$(cider version)"
+  publish:
+    cmds:
+      - dart pub publish
