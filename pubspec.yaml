@@ -7,7 +7,7 @@ environment:
   sdk: ">=2.18.0 <4.0.0"
 
 dependencies:
-  flutter_lints: ^2.0.1
+  flutter_lints: ">=2.0.1 <4.0.0"
 
 cider:
   link_template:
