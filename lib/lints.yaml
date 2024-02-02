@@ -115,6 +115,9 @@ linter:
     # https://dart.dev/tools/linter-rules/deprecated_consistency
     deprecated_consistency: true
 
+    # https://dart.dev/tools/linter-rules/implicit_call_tearoffs
+    implicit_call_tearoffs: true
+
     # https://dart.dev/tools/linter-rules/join_return_with_assignment
     join_return_with_assignment: true
 
@@ -166,11 +169,17 @@ linter:
     # https://dart.dev/tools/linter-rules/prefer_single_quotes
     prefer_single_quotes: true
 
+    # https://dart.dev/tools/linter-rules/secure_pubspec_urls
+    secure_pubspec_urls: true
+
     # https://dart.dev/tools/linter-rules/sort_pub_dependencies
     sort_pub_dependencies: true
 
     # https://dart.dev/tools/linter-rules/sort_unnamed_constructors_first
     sort_unnamed_constructors_first: true
+
+    # https://dart.dev/tools/linter-rules/type_literal_in_constant_pattern
+    type_literal_in_constant_pattern: true
 
     # https://dart.dev/tools/linter-rules/unawaited_futures
     unawaited_futures: true
@@ -228,6 +237,9 @@ linter:
 
     # https://dart.dev/tools/linter-rules/use_string_buffers
     use_string_buffers: true
+
+    # https://dart.dev/tools/linter-rules/use_string_in_part_of_directives
+    use_string_in_part_of_directives: true
 
     # https://dart.dev/tools/linter-rules/use_super_parameters
     use_super_parameters: true

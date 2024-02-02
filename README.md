@@ -21,16 +21,6 @@ dev_dependencies:
   galactic_lints: ^0.0.1
 ```
 
-> Note: While this package is unpublished, use:
-
-```yaml
-dev_dependencies:
-  galactic_lints:
-    git:
-      url: git@github.com:bjoernahrens/galactic_lints.git
-      ref: main
-```
-
 ## Usage
 
 Add the following line to your `analysis_options.yaml`:
@@ -91,6 +81,7 @@ Checkout the packages [`flutter_lints`](https://pub.dev/packages/flutter_lints) 
 - [`cascade_invocations`](https://dart.dev/tools/linter-rules/cascade_invocations)
 - [`dangling_library_doc_comments`](https://dart.dev/tools/linter-rules/dangling_library_doc_comments)
 - [`deprecated_consistency`](https://dart.dev/tools/linter-rules/deprecated_consistency)
+- [`implicit_call_tearoffs`](https://dart.dev/tools/linter-rules/implicit_call_tearoffs)
 - [`join_return_with_assignment`](https://dart.dev/tools/linter-rules/join_return_with_assignment)
 - [`leading_newlines_in_multiline_strings`](https://dart.dev/tools/linter-rules/leading_newlines_in_multiline_strings)
 - [`lines_longer_than_80_chars`](https://dart.dev/tools/linter-rules/lines_longer_than_80_chars)
@@ -108,8 +99,10 @@ Checkout the packages [`flutter_lints`](https://pub.dev/packages/flutter_lints) 
 - [`prefer_int_literals`](https://dart.dev/tools/linter-rules/prefer_int_literals)
 - [`prefer_null_aware_method_calls`](https://dart.dev/tools/linter-rules/prefer_null_aware_method_calls)
 - [`prefer_single_quotes`](https://dart.dev/tools/linter-rules/prefer_single_quotes)
+- [`secure_pubspec_urls`](https://dart.dev/tools/linter-rules/secure_pubspec_urls)
 - [`sort_pub_dependencies`](https://dart.dev/tools/linter-rules/sort_pub_dependencies)
 - [`sort_unnamed_constructors_first`](https://dart.dev/tools/linter-rules/sort_unnamed_constructors_first)
+- [`type_literal_in_constant_pattern`](https://dart.dev/tools/linter-rules/type_literal_in_constant_pattern)
 - [`unawaited_futures`](https://dart.dev/tools/linter-rules/unawaited_futures)
 - [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return)
 - [`unnecessary_lambdas`](https://dart.dev/tools/linter-rules/unnecessary_lambdas)
@@ -129,6 +122,7 @@ Checkout the packages [`flutter_lints`](https://pub.dev/packages/flutter_lints) 
 - [`use_raw_strings`](https://dart.dev/tools/linter-rules/use_raw_strings)
 - [`use_setters_to_change_properties`](https://dart.dev/tools/linter-rules/use_setters_to_change_properties)
 - [`use_string_buffers`](https://dart.dev/tools/linter-rules/use_string_buffers)
+- [`use_string_in_part_of_directives`](https://dart.dev/tools/linter-rules/use_string_in_part_of_directives)
 - [`use_super_parameters`](https://dart.dev/tools/linter-rules/use_super_parameters)
 - [`use_test_throws_matchers`](https://dart.dev/tools/linter-rules/use_test_throws_matchers)
 
