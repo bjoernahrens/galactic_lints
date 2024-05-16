@@ -1,3 +1,10 @@
+## [Unreleased]
+
+### Changed
+
+- Align version with flutter_lints
+- Bump flutter_lints to v4.0.0
+
 ## [1.0.0] - 2024-02-03
 
 ### Added
@@ -28,6 +35,7 @@
 
 - Add all rules
 
+[Unreleased]: https://github.com/bjoernahrens/galactic_lints/compare/1.0.0...HEAD
 [1.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.2...1.0.0
 [0.0.2]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.1...0.0.2
 [0.0.1]: https://github.com/bjoernahrens/galactic_lints/releases/tag/0.0.1

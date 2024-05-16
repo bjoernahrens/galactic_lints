@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 
+import 'library.dart';
+
 typedef FutureV = Future<void>;
 
 void foo(List<String> lines) {}
@@ -12,6 +14,7 @@ void bar(String jsonText) {
 
 void main() async {
   await FutureV.delayed(Duration.zero);
+  doAmazingStuff();
 
   runApp(const MyApp());
 }

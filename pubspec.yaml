@@ -1,13 +1,13 @@
 name: galactic_lints
 description: A very opinionated Collection of Linter Rules for Flutter and Dart that go beyond.
-version: 1.0.0
+version: 4.0.0
 repository: https://github.com/bjoernahrens/galactic_lints
 
 environment:
   sdk: ^3.0.0
 
 dependencies:
-  flutter_lints: ^3.0.1
+  flutter_lints: ^4.0.0
 
 cider:
   link_template:

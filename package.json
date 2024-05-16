@@ -5,8 +5,8 @@
   "scripts": {},
   "license": "MIT",
   "devDependencies": {
-    "husky": "^9.0.10",
-    "lint-staged": "^15.2.1",
-    "prettier": "^3.2.4"
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5"
   }
 }
