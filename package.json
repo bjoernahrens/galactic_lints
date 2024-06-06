@@ -2,11 +2,13 @@
   "name": "galactic_lints",
   "version": "0.0.0",
   "description": "Support for Dart/Pub project",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky"
+  },
   "license": "MIT",
   "devDependencies": {
     "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.3.1"
   }
 }
