@@ -1,13 +1,15 @@
 name: galactic_lints
 description: A very opinionated Collection of Linter Rules for Flutter and Dart that go beyond.
-version: 4.0.0
+version: 5.0.0
 repository: https://github.com/bjoernahrens/galactic_lints
 
 environment:
-  sdk: ^3.0.0
+  sdk: ^3.5.0
+  # Should mirror value in flutter_lints repository
+  # https://github.com/flutter/packages/blob/main/packages/flutter_lints/pubspec.yaml
 
 dependencies:
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 cider:
   link_template:

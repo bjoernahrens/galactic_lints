@@ -1,3 +1,9 @@
+## [5.0.0] - 2024-12-19
+
+### Changed
+
+- Bump flutter_lints to ^v5.0.0
+
 ## [4.0.0] - 2024-05-17
 
 ### Changed
