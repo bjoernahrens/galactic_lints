@@ -172,6 +172,9 @@ linter:
     # https://dart.dev/tools/linter-rules/secure_pubspec_urls
     secure_pubspec_urls: true
 
+    # https://dart.dev/tools/linter-rules/strict_top_level_inference
+    strict_top_level_inference: true
+
     # https://dart.dev/tools/linter-rules/sort_pub_dependencies
     sort_pub_dependencies: true
 
@@ -207,6 +210,9 @@ linter:
 
     # https://dart.dev/tools/linter-rules/unnecessary_to_list_in_spreads
     unnecessary_to_list_in_spreads: true
+
+    # https://dart.dev/tools/linter-rules/unnecessary_underscores
+    unnecessary_underscores: true
 
     # https://dart.dev/tools/linter-rules/use_colored_box
     use_colored_box: true
@@ -246,3 +252,6 @@ linter:
 
     # https://dart.dev/tools/linter-rules/use_test_throws_matchers
     use_test_throws_matchers: true
+
+    # https://dart.dev/tools/linter-rules/use_truncating_division
+    use_truncating_division: true

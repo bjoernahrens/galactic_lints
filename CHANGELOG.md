@@ -1,3 +1,12 @@
+## [Unreleased]
+
+### Changed
+
+- Bump flutter_lints to ^v6.0.0
+- New linter rule `strict_top_level_inference`
+- New linter rule `unnecessary_underscores`
+- New linter rule `use_truncating_division`
+
 ## [5.0.0] - 2024-12-19
 
 ### Changed
@@ -41,6 +50,8 @@
 
 - Add all rules
 
+[Unreleased]: https://github.com/bjoernahrens/galactic_lints/compare/5.0.0...HEAD
+[5.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/4.0.0...5.0.0
 [4.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/1.0.0...4.0.0
 [1.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.2...1.0.0
 [0.0.2]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.1...0.0.2
