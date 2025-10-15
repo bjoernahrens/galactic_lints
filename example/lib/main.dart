@@ -12,6 +12,10 @@ void bar(String jsonText) {
   foo(jsonDecode(jsonText) as List<String>);
 }
 
+var doAmazingStuff = () {
+  bar('["Hello", "from", "the", "other", "side!"]');
+};
+
 void main() async {
   await FutureV.delayed(Duration.zero);
   doAmazingStuff();
