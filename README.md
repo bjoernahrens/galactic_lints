@@ -129,4 +129,4 @@ Checkout the packages [`flutter_lints`](https://pub.dev/packages/flutter_lints) 
 ## Development
 
 This project is configured with `husky` and `lint-staged` to automatically format code pre-commit.
-To install the pre-commit hook, you need to install and run `husky` via `npm`/`npx`.
+To install the pre-commit hook, you need to install and run `husky` via `bun`.
