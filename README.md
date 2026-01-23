@@ -125,8 +125,3 @@ Checkout the packages [`flutter_lints`](https://pub.dev/packages/flutter_lints) 
 - [`use_string_in_part_of_directives`](https://dart.dev/tools/linter-rules/use_string_in_part_of_directives)
 - [`use_super_parameters`](https://dart.dev/tools/linter-rules/use_super_parameters)
 - [`use_test_throws_matchers`](https://dart.dev/tools/linter-rules/use_test_throws_matchers)
-
-## Development
-
-This project is configured with `husky` and `lint-staged` to automatically format code pre-commit.
-To install the pre-commit hook, you need to install and run `husky` via `bun`.

@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+cider() { fvm dart run cider "$@"; }
+
+if ! command -v gh &>/dev/null; then
+	echo "GitHub CLI (gh) could not be found, please install it first."
+	exit 1
+fi
+
+if ! gh auth status &>/dev/null; then
+	echo "You are not authenticated with GitHub CLI. Please run 'gh auth login' first."
+	exit 1
+fi
+
+cider release
+git add CHANGELOG.md
+git commit -m "chore: update CHANGELOG for v$(cider version)"
+git tag -a "$(cider version)" -m "$(cider version)"
+git push
+gh release create "v$(cider version)" --notes-file CHANGELOG.md --verify-tag

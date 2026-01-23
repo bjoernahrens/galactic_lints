@@ -19,3 +19,6 @@ cider:
 topics:
   - lints
   - analysis
+
+dev_dependencies:
+  cider: ^0.2.9

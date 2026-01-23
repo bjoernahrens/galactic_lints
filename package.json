@@ -4,7 +4,9 @@
   "description": "Support package for Dart/Pub project",
   "private": true,
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "./scripts/release",
+    "publish": "./scripts/publish"
   },
   "license": "MIT",
   "devDependencies": {
