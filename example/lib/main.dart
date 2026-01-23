@@ -20,6 +20,10 @@ void main() async {
   await FutureV.delayed(Duration.zero);
   doAmazingStuff();
 
+  var x = (2 / 3).toInt();
+
+  print(x);
+
   runApp(const MyApp());
 }
 
@@ -54,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _incrementCounter() {
     setState(() {
       _counter++;
+      return null;
     });
   }
 
@@ -68,9 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            const Text('You have pushed the button this many times:'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
