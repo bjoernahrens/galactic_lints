@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! command -v yq >/dev/null 2>&1; then
+  echo "yq is required but was not found on PATH." >&2
+  echo "Install it and try again." >&2
+  exit 1
+fi
+
+if [[ ! -f "pubspec.lock" ]]; then
+  echo "pubspec.lock not found." >&2
+  echo "Run 'dart pub get' and try again." >&2
+  exit 1
+fi
+
+read_yaml() {
+  yq -r "$1 // \"\"" "$2"
+}
+
+FL_VERSION=$(read_yaml ".packages.flutter_lints.version" "pubspec.lock")
+
+if [[ -z "$FL_VERSION" ]]; then
+  echo "Could not read flutter_lints version from pubspec.lock" >&2
+  echo "Run 'dart pub get' and try again." >&2
+  exit 1
+fi
+
+PUB_CACHE_PATH="${PUB_CACHE:-"$HOME/.pub-cache"}"
+FL_CACHE_PATH="$PUB_CACHE_PATH/hosted/pub.dev/flutter_lints-$FL_VERSION"
+
+if [[ ! -d "$FL_CACHE_PATH" ]]; then
+  echo "flutter_lints $FL_VERSION not found at $FL_CACHE_PATH" >&2
+  echo "Run 'flutter pub get' and try again." >&2
+  exit 1
+fi
+
+PROJECT_SDK=$(read_yaml ".environment.sdk" "pubspec.yaml")
+FL_SDK=$(read_yaml ".environment.sdk" "$FL_CACHE_PATH/pubspec.yaml")
+
+if [[ -z "$PROJECT_SDK" ]]; then
+  echo "Could not read environment.sdk from pubspec.yaml" >&2
+  exit 1
+fi
+
+if [[ -z "$FL_SDK" ]]; then
+  echo "Could not read environment.sdk from $FL_CACHE_PATH/pubspec.yaml" >&2
+  exit 1
+fi
+
+if [[ "$PROJECT_SDK" != "$FL_SDK" ]]; then
+  echo "environment.sdk mismatch:" >&2
+  echo "  pubspec.yaml: $PROJECT_SDK" >&2
+  echo "  flutter_lints $FL_VERSION: $FL_SDK" >&2
+  exit 1
+fi
