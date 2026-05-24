@@ -14,10 +14,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
 
-      - uses: oven-sh/setup-bun@v2
+      - uses: pnpm/action-setup@0e279bb959325dab635dd2c09392533439d90093 # v6.0.8
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Prettier check
-        run: bun prettier --check .
+        run: pnpm run format:check
