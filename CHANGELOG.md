@@ -1,4 +1,4 @@
-## [Unreleased]
+## [6.0.0] - 2025-10-09
 
 ### Changed
 
@@ -50,7 +50,7 @@
 
 - Add all rules
 
-[Unreleased]: https://github.com/bjoernahrens/galactic_lints/compare/5.0.0...HEAD
+[6.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/5.0.0...6.0.0
 [5.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/4.0.0...5.0.0
 [4.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/1.0.0...4.0.0
 [1.0.0]: https://github.com/bjoernahrens/galactic_lints/compare/0.0.2...1.0.0
