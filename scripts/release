@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cider() { fvm dart run cider "$@"; }
+cider() { dart run cider "$@"; }
 
 if ! command -v gh &>/dev/null; then
 	echo "GitHub CLI (gh) could not be found, please install it first."
